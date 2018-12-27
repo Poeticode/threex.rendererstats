@@ -1,7 +1,7 @@
 {
-  "name": "@xailabs/three-renderer-stats",
+  "name": "@poeticode/three-renderer-stats",
   "version": "1.0.4",
-  "description": "Fork of https://github.com/jeromeetienne/threex.rendererstats",
+  "description": "Fork of xailabs's fork of https://github.com/jeromeetienne/threex.rendererstats",
   "main": "threex.rendererstats.js",
   "directories": {
     "example": "examples"
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xailabs/threex.rendererstats.git"
+    "url": "git+https://github.com/poeticode/threex.rendererstats.git"
   },
   "keywords": [],
-  "author": "Jovica Aleksic <jovica.aleksic@xailabs.de>",
+  "author": "Silas Tippens <me@silentsilas.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xailabs/threex.rendererstats/issues"
+    "url": "https://github.com/poeticode/threex.rendererstats/issues"
   },
-  "homepage": "https://github.com/xailabs/threex.rendererstats#readme"
+  "homepage": "https://github.com/poeticode/threex.rendererstats#readme"
 }

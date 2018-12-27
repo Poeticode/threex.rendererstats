@@ -1,3 +1,10 @@
+@poeticode/three-renderer-stats
+========================================
+
+FORKED FROM https://github.com/xailabs/threex.rendererstats
+
+- Removed the unnecessary `require('three')` so that it works with the modular threejs
+
 @xailabs/three-renderer-stats
 ========================================
 
