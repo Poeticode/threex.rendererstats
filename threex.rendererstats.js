@@ -49,17 +49,17 @@ module.exports = function RendererStats() {
 			if (Date.now() - lastTime < 1000 / 30) return;
 			lastTime = Date.now();
 
-			var i = 0;
-			msTexts[i++].textContent = '== Memory =====';
-			msTexts[i++].textContent = 'Programs: ' + (webGLRenderer ? webGLRenderer.info.programs.length : '-');
-			msTexts[i++].textContent = 'Geometries: ' + (webGLRenderer ? webGLRenderer.info.memory.geometries : '-');
-			msTexts[i++].textContent = 'Textures: ' + (webGLRenderer ? webGLRenderer.info.memory.textures : '-');
+			var i	= 0;
+			msTexts[i++].textContent = "== Memory =====";
+			msTexts[i++].textContent = "Programs: "	+ webGLRenderer.info.programs.length;
+			msTexts[i++].textContent = "Geometries: "+webGLRenderer.info.memory.geometries;
+			msTexts[i++].textContent = "Textures: "	+ webGLRenderer.info.memory.textures;
 
-			msTexts[i++].textContent = '== Render =====';
-			msTexts[i++].textContent = 'Calls: ' + (webGLRenderer ? webGLRenderer.info.render.calls : '-');
-			msTexts[i++].textContent = 'Vertices: ' + (webGLRenderer ? webGLRenderer.info.render.vertices : '-');
-			msTexts[i++].textContent = 'Faces: ' + (webGLRenderer ? webGLRenderer.info.render.faces : '-');
-			msTexts[i++].textContent = 'Points: ' + (webGLRenderer ? webGLRenderer.info.render.points : '-');
+			msTexts[i++].textContent = "== Render =====";
+			msTexts[i++].textContent = "Calls: "	   + webGLRenderer.info.render.calls;
+			msTexts[i++].textContent = "Triangles: " + webGLRenderer.info.render.triangles;
+			msTexts[i++].textContent = "Lines: "	   + webGLRenderer.info.render.lines;
+			msTexts[i++].textContent = "Points: "	   + webGLRenderer.info.render.points;
 		}
 	};
 };
