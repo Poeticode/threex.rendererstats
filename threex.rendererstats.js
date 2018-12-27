@@ -1,5 +1,3 @@
-const THREE = require('three');
-
 /**
  * @author mrdoob / http://mrdoob.com/
  * @author jetienne / http://jetienne.com/
